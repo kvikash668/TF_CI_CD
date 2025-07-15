@@ -12,8 +12,8 @@ on:
          - "destroy"
 
 permissions:
-  contents: 'read'
-  id-token: 'write'
+  contents: "read"
+  id-token: "write"
 jobs:
   aws_action:
     runs-on: ubuntu-latest
