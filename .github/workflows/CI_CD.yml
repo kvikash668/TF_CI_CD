@@ -45,7 +45,8 @@ jobs:
 
 # Generates an execution plan for Terraform
       - name: Terraform Plan
-        run: terraform  plan -input=false
+        run: terraform  plan
+        #run: terraform  plan -input=false
         #working-directory: tfroot
 # Apply the plan if apply parameter selected during run.
       - name: Terraform Apply
