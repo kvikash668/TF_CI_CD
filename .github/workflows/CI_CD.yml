@@ -22,7 +22,7 @@ on:
           - "apply"
           - "destroy"
           
-permission:
+permissions:
   contents: "read"
   id-token: "write"
   
