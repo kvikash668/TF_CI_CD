@@ -41,7 +41,7 @@ jobs:
 # Initialize terraform
       - name: Terraform Init
         run: terraform  init
-        working-directory: tfroot # this is directory where all terraform files are
+        #working-directory: tfroot # this is directory where all terraform files are
 
 # Generates an execution plan for Terraform
       - name: Terraform Plan
